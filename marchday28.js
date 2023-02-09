@@ -5,7 +5,7 @@
  //method 1=object literal or using class
     let person = {
 
-        fullName:"rutuja sahane",
+        fullName:"kirti sahane",
         age:23,
         adharNumber:123,
         display:function(){
@@ -29,9 +29,9 @@
 
     }
 
-    let rutuja2 = new Person2("rutuja s",23,123)
-    rutuja2.display()
-    console.log(rutuja2)
+    let kirti2 = new Person2("kirti s",23,123)
+    kirti2.display()
+    console.log(kirti2)
 
 
  // objects==there are 4 ways to create object
@@ -48,10 +48,10 @@
 
     }
 
-    let rutu = new Person3("rutu",22,12)
-    let rutu1 = new Person3("saru",12,11)
-    console.log(rutu)
-    console.log(rutu1)
+    let rutu = new Person3("kirt",22,12)
+    let rutu1 = new Person3("kir",12,11)
+    console.log(kirt)
+    console.log(kirt1)
 
     // // Prototype
 
