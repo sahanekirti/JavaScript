@@ -1,7 +1,7 @@
 // object literal
 
 let person={
-    fullname:"rutuja ",
+    fullname:"kirti ",
     age:23,
     lastname:"sahane"
 
@@ -17,11 +17,11 @@ let Myperson=function(first_name,last_name,age){
 
 }
 let rutuja=new Myperson('savi','medage',5)
-console.log(rutuja)
+console.log(kirti)
 
 //rutu__proto__ is equal to the Myperson.prototype
-console.log(rutuja instanceof Myperson)
-console.log(rutuja._proto_ === Myperson.prototype)
+console.log(kirti instanceof Myperson)
+console.log(kirti._proto_ === Myperson.prototype)
 
 //vehicle function constructor
 
@@ -52,18 +52,18 @@ let Student=function(fname,lname){
     this.fname=fname
     this.lname=lname
 }
-let rutu=new Student("rutuja",'sahane')
+let rutu=new Student("kirti",'sahane')
 Student.prototype.display=function(){
     console.log("hello")
 }
-console.log(rutu)
+console.log(kirt)
 Student.prototype.language="marathi"
-console.log(rutu)
+console.log(kirt)
 rutu.display()
-console.log(rutu.language)
-console.log(rutu.hasOwnProperty('fname'))
-console.log(rutu.hasOwnProperty('lname'))
-console.log(rutu._proto_=Student.prototype)
+console.log(kirt.language)
+console.log(kirt.hasOwnProperty('fname'))
+console.log(kirt.hasOwnProperty('lname'))
+console.log(kirt._proto_=Student.prototype)
 
 //----------------------------------------------------------------
 console.log('***another example****')
