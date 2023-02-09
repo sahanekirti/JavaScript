@@ -11,7 +11,7 @@ console.log(count)
 
 
 //  program 2...to give count of character in object
-let string  = ['r','u','t','u','j','a']
+let string  = ['k','i','r','t','i','a']
 let newresult = {}
 console.log(newresult)
 
@@ -207,11 +207,11 @@ console.log(num2)
 // reverse string 
 
 
-let firstName = "chinmay"
+let firstName = "sahane"
 let rev = ""
 
 //   0   1  2   3   4   5    6
-//   c   h  i   n   m   a    y
+//   s   a  h   a   n    e
 
 //yamnihc
 
@@ -242,7 +242,7 @@ console.log(rev2)
 
 //         0         1       2      3        4        5     6
 
-let l = ["chinmay","amol","poorva","mayuri","amol","poorva","amol"]
+let l = ["sahane","amol","poorva","mayuri","amol","poorva","amol"]
 for(let i = 0 ; i < l.length ; i++){
     if(l[i] === "amol"){
         console.log(i)
