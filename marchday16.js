@@ -1,7 +1,7 @@
 //Regular Expression---it is pattern of character
 
-let sentence="hi i am rutujAand i am new to javascript my fullname is rutuja sahane"
-let regexp=/rutuja/gi
+let sentence="hi i am kirti Aand i am new to javascript my fullname is kirti sahane"
+let regexp=/kirti/gi
 
 let a=regexp.exec(sentence)
 console.log(a)
@@ -66,7 +66,7 @@ let s2=newstr.match(regexp3)
 console.log(s2)
 
 //-------------------------------------
-let s3=newstr.replace(regexp3,'rutuja')
+let s3=newstr.replace(regexp3,'kirti')
 console.log(s3)
 //----------------------------------------
 
