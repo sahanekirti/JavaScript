@@ -1,5 +1,5 @@
 let students=[{
-    fullname:'rutuja sahane',
+    fullname:'kirti sahane',
     age:23,
     skills:['python','java','javascript']
 
