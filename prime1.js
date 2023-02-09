@@ -11,4 +11,4 @@
 ////}
 //prime(17)
 
-console.log("rutuja")
+console.log("kirti")
