@@ -21,7 +21,7 @@ newone.display()
 //method 4===inheritance
 
 class Student{
-    fname='rutu'
+    fname='kirti'
     age=23
     adharno=25
 }
@@ -96,6 +96,6 @@ class Son extends Father{
     }
 }
 
-let rutu=new Son('datatray','sahane','vilas','rutuja')
-rutu.display()
+let rutu=new Son('datatray','sahane','lahanu','kirti')
+kirti.display()
 
