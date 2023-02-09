@@ -1,6 +1,6 @@
 //object--object literal
 let myobj={
-    fullname:"rutuja",
+    fullname:"kirti",
     age:23,
     rollno:45,
     skills:['javascipt','python']
@@ -14,11 +14,11 @@ console.log(myobj['fullname'])
 console.log(myobj.fullname)
 
 //upadate
-let updateobj=myobj.fullname="rutuja sahane"
+let updateobj=myobj.fullname="kirti sahane"
 console.log(updateobj)
 console.log(myobj)
 
-updateobj=myobj['fullname']='rutuja vilas sahane'
+updateobj=myobj['fullname']='kirti sahane'
 console.log(updateobj)
 console.log(myobj)
 
@@ -40,12 +40,12 @@ class MyClass{
     rollno=undefined
 }
 let rutuja=new MyClass()
-console.log(rutuja)
-rutuja.name="rutuja sahane"
-rutuja.age=23
-rutuja.rollno=90
-rutuja.city="pune"
-console.log(rutuja)
+console.log(kirti)
+kirti.name="kirti sahane"
+kirti.age=23
+kirti.rollno=90
+kirti.city="pune"
+console.log(kirti)
 
 //method 2--setting the values using constructor
 class MyClass2{
@@ -57,8 +57,8 @@ class MyClass2{
     }
 }
 
-let rutuja2=new MyClass2('rvsahane',23,56,['php','marathi'])
-console.log(rutuja2)
+let kirti=new MyClass2('rvsahane',23,56,['php','marathi'])
+console.log(kirti)
 
 let students=[
         new MyClass2('sauu',4,10,['js','sql']),
@@ -97,12 +97,12 @@ class MyClass3{
         this.skill=skills
     }
 }
-let rutuja3=new MyClass3()
-rutuja3.setAge(23)
-console.log(rutuja3)
+let kirti3=new MyClass3()
+kirti3.setAge(23)
+console.log(kirt3)
 
-rutuja3.setName('Rutuja Sahane')
-console.log(rutuja3)
+kirti3.setName('kirti Sahane')
+console.log(kirti3)
 
-rutuja3.setSkills(['python','js','cypress'])
-console.log(rutuja3)
+kirti3.setSkills(['python','js','cypress'])
+console.log(kirti3)
