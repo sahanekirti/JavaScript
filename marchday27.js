@@ -28,7 +28,7 @@ mapA.set(a1,'skills')
 console.log(mapA)
 
 //object as key
-let obj1={'father':"vilas",'mother':'vanita'}
+let obj1={'father':"sahane",'mother':'sahane1'}
 mapA.set(obj1,'family')
 console.log(mapA)
 
@@ -69,7 +69,7 @@ console.log(mapA)
 //----------------------------------
 console.log("****examples of map******")
 let mapB=new Map()
-mapB.set('Fullname','rutuja')
+mapB.set('Fullname','kirti')
 console.log(mapB)
 
 
@@ -122,7 +122,7 @@ for(let [a,b] of set2.entries()){
 
 //------------------------------------------
 console.log("***another example****")
-let set3=new Set([['fullname',"rutuja"],['sirname','sahane'],['age',23]])
+let set3=new Set([['fullname',"kirti"],['sirname','sahane'],['age',23]])
 for(let [a,b] of set3.entries()){
     console.log(a[0],b[1])
 }
