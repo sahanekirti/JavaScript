@@ -85,7 +85,7 @@ for (let i = 5; i >= 1; i--) {
  
  //---------------------------------------------------------------
  console.log("**********reverse string********")
-let str='rutuja'
+let str='kirti'
 function reverse(){
     let my=str.toString().split("").reverse().join("")
     console.log(my)
