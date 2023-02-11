@@ -1,7 +1,7 @@
 //string
 //string also store value by index
 
-let name="rutuja"
+let name="kirti"
 console.log(name)
 console.log(typeof name)
 console.log(name[5])
